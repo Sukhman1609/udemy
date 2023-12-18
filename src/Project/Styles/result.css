@@ -1,0 +1,41 @@
+.mainResult{
+    margin-left: 50px;
+    /* border: 4px solid; */
+}
+.search-results-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .bestSellerButtonsea{
+    border:none;
+    background-color: purple;
+    color: #f7f9fa;
+    border: 1px solid grey;
+    padding:10px 20px;
+    margin-left: 20px;
+    margin-top: 13px;
+  }
+  .bestSellerButtonsea:hover{
+    background-color: blueviolet;
+  }
+  .mainResult .box{
+    border: 1px solid grey;
+    padding: 10px 20px 10px 10px;
+    height: 430px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .mainResult .box:hover{
+    background-color: #e9eaeb;
+  }
+  
+ 
+@media (max-width: 550px) {
+    .mainResult{
+        margin-top: 60px;
+       
+    }
+}

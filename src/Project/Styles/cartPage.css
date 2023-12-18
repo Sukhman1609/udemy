@@ -1,0 +1,122 @@
+.cartmain{
+    width: 65%;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: -5px 5px 5px  rgb(188, 183, 183);
+    margin-bottom: 30px;
+}
+.cartimg{
+    width: 260px;
+    height: 160px;
+    margin-top: 0px;
+    border: 1px solid grey;
+}
+.left{
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+.right{
+    width: 600px; 
+    /* border: 2px solid red; */
+    font-size: 13pt;
+    height: 160px;
+}
+.cartInMain{
+    position: fixed;
+    left: 1050px;
+    top: 190px;
+}
+
+.day{
+    margin-top: 1200px;
+}
+
+button{
+    font-size: 15pt;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.carttotal{
+    font-size: 25pt;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.buybutton{
+background-color: green;
+width: 120px;
+height: 40px;
+margin-left: 120px;
+}
+.empty{
+    margin-left: 40%;
+}
+
+.popup-message{
+    background-color: black;
+    color:aliceblue;
+    font-size: 18pt;
+    width: 220px;
+    border-radius: 5px;
+    /* margin: -509px 0px 0px 0px; */
+    position: relative;
+    top:0px;
+    left:60px;
+    /* padding: auto; */
+    padding:0px 30px;
+    margin-bottom: 30px;
+}
+
+.green-line {
+    height: 5px;
+    background-color: green;
+    width: 100%;
+    margin-top: -15px;
+    animation: decreaseWidth 5s linear;
+  }
+  
+  @keyframes decreaseWidth {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
+  }
+  @media only screen and (min-width: 270px) and (max-width: 540px) {
+    .popup-message{
+        background-color: black;
+        color:aliceblue;
+        font-size: 18pt;
+        width: 220px;
+        border-radius: 5px;
+        /* margin: -509px 0px 0px 0px; */
+        position: relative;
+        top:0px;
+        left:50px;
+        /* padding: auto; */
+        padding:0px 30px;
+        margin-bottom: 30px;
+        margin-right: 90px;
+    }
+    .cartHead{
+        margin-top: 70px;
+    }
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .cartHead{
+        margin-top: 120px;
+    }
+  }
+
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,178 @@
+.mainDetails{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: #252525; */
+    
+
+}
+.subImg5{
+    height: 280px;
+    width: 380px;
+
+}
+.leftSection{
+    width: 380px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.rightDetails{
+    /* border: 2px solid green;  */
+    width: 800px;
+    margin-left: 10px ;
+}
+.name2{
+    font-size: 24pt;
+    font-weight: 600;
+    color: white;
+    margin-left: 250px;
+    width: 660px;
+}
+.Detail{
+    margin-top:-90px ;
+}
+.rating2{
+    text-align: left;
+    font-size: 15pt;
+    font-weight: 600;
+    color: rgb(209, 176, 8);
+    margin-top: -10px; 
+    margin-left: 250px;
+    width: 660px;
+}
+.studentsthis{
+    color: white;
+    margin-top: -16px;
+    margin-left: 250px;
+    width: 660px;
+}
+.authorthis{
+    color: white;
+    margin-left: 250px;
+    width: 660px;
+}
+.price2{
+    font-size: 20pt;
+    font-weight: 800;
+    color:  #252525;
+    margin-left: 30px;
+}
+.DetailsinBox{
+    background-color: #252525;
+    width: 1600px;
+    margin-left: -250px;
+    padding-top: 40px;padding-bottom: 30px;
+}
+
+.desc{
+    border:1px solid gray;
+    padding: 10px 20px 10px 20px;
+    color: #252525;
+    margin-top: 30px;
+    font-size: large;
+}
+
+.Headingthis{
+    color: white;
+    font-size: 16pt;
+    margin-left: 250px;
+    width: 660px;
+}
+
+.bestSellerButton2{
+    border:none;
+    background-color: rgb(136, 2, 136);
+    color: #f7f9fa;
+    padding: 15px 50px;
+    font-weight: 700;
+    margin-left: 60px;
+    margin-top: 13px;
+}
+
+.foot{
+    margin-top: 970px;
+}
+
+.bestSellerButton2:hover{
+    background-color: rgb(88, 2, 81);
+}
+.navbar-container2{
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    width: 1700px;
+    top: 0;
+}
+.others1{
+    position: relative;
+    left: 480px;
+}
+
+.popup-message1{
+    background-color: black;
+    color:aliceblue;
+    font-size: 18pt;
+    width: 220px;
+    border-radius: 5px;
+    /* margin: -509px 0px 0px 0px; */
+    position: relative;
+    top:0px;
+    left:430px;
+    /* padding: auto; */
+    padding:0px 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 270px) and (max-width: 540px) {
+   
+    .subImg2{
+        /* border: 2px solid blueviolet;  */
+        width: 300px;
+    }
+    .Detail{
+        margin-top:90px ;
+    }
+    
+    .bestSellerButton2{
+        border: 1px solid grey;
+        background-color: rgb(8, 189, 8);
+        font-size: larger;
+        border-radius: 5px;
+        height: 40px;
+        padding: 5px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .buy{
+        display:none;
+    }
+    .others1{
+        position: relative;
+        left: 30px;
+        top: 80px;
+    }
+    .popup-message1{
+        background-color: black;
+        color:aliceblue;
+        /* color:rgb(36, 57, 36); */
+        font-size: 18pt;
+        width: 220px;
+        border-radius: 5px;
+        /* margin: -509px 0px 0px 0px; */
+        position: relative;
+        top:0px;
+        left:30px;
+        /* padding: auto; */
+        padding:0px 30px;
+        margin-bottom: 30px;
+    }
+  
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1040px) {
+    .mainDetails{
+        margin-top: 180px;
+    } 
+}
